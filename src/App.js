@@ -1,6 +1,9 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
+import getData from "./odev1.js";
+let output = await getData(2);
+console.log(output);
 
 class LambdaDemo extends Component {
   constructor(props) {
