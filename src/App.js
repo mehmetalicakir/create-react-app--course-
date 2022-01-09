@@ -1,9 +1,9 @@
 import React, { Component } from "react"
+import axios from "axios";
 import logo from "./logo.svg"
-import "./App.css"
+import './App.css';
 import getData from "./odev1.js";
-let output = getData(1);
-console.log(output);
+getData(1);
 
 class LambdaDemo extends Component {
   constructor(props) {
